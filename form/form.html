@@ -4,57 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html form</title>
+    <link rel="stylesheet" href="/CSS/form.css">
+    <title>Registration form</title>
 </head>
 <body>
-    <form>
-        <div>
-            <label for="fName">First Name</label>
-            <input type="text" id="fName" placeholder=" First Name">
-        </div><br>
+    <div class="main">
 
-         <div>
-            <label for="lName">Last Name</label>
-            <input type="text" id="lName" placeholder="Last Name">
-        </div><br>
+        <div class="register">
+                <h2>Register Here</h2>
+                <form id="register" method="post">
+                    <label>First Name : </label>
+                    <br>
+                    <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+                    <br><br>
 
-         <div>
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="example@1**">
-        </div><br>
+                    <label>Last Name : </label>
+                    <br>
+                    <input type="text" name="Lname" id="" placeholder="Enter Your Last Name ">
+                    <br><br>
 
-         <div>
-            <label for="contact">Contact</label>
-            <input type="number" id="contact" placeholder="9245**">
-        </div><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="text"  id="email" placeholder="example@1**">
+                    <br><br>
 
-         <div>
-            <label for="dob">Date of Birth</label>
-            <input type="date" id="dob" placeholder="Date of Birth">
-        </div><br>
+                    <label>Contact : </label>
+                    <br>
+                    <input type="number"  id="contact" placeholder="9245**">
+                    <br><br>
 
-         <div>
-            <label for="age">Age</label>
-            <input type="number" id="age" placeholder="what's your age">
-        </div><br>
+                    <label>Date Of Birth : </label>
+                    <br>
+                    <input type="date"  id="dob" placeholder="Enter Your Dob">
+                    <br><br>
 
-         
+                    <label>Age : </label>
+                    <br>
+                    <input type="number"  id="age" placeholder="Enter Your age">
+                    <br><br>
 
-        <div>
-            <fieldset>
-                <legend>Gender</legend>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender">
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="gender">
-            </fieldset>
-        </div><br>
+                    <label>Resume File  : </label>
+                    <br>
+                    <input type="file"  id="resume">
+                    <br><br>
 
-        <div>
-            <label for="resume">Resume File</label>
-            <input type="file" id="resume">
-        </div>
+                    <label>Gender : </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio"   name="gender" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp; 
 
-    </form>
+                    <input type="radio"   name="gender" id="female">
+                    &nbsp;
+                    <span id="female">Female</span><br><br>
+                    <input type="submit"   name="gender" value="submit" id="submit">
+                    
+                </form>
+        </div><!--end register-->
+        
+     </div><!--end main-->
 </body>
 </html>

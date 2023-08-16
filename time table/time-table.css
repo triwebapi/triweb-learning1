@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+table{
+    width: 100vw;
+    padding-top: 70px;
+}
+
+th,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+th{
+    font-size: 20px;
+    padding-right: 23px;
+}
+td{
+    font-size: 20px;
+    font-family: monospace;
+}
+caption{
+    font-size: 40px;
+    font-family: unset;
+}
+th:hover{
+    background-color: #D6EEEE;
+}
+td:hover{
+    background-color: #88ff4d;
+}
