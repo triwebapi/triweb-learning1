@@ -1,5 +1,6 @@
 let myImage = document.querySelector('img');
 
+
 myImage.onclick = function(){
     let imgsrc = myImage.getAttribute('src');
     if(imgsrc== 'car.jpg'){
