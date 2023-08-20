@@ -8,4 +8,4 @@ function getFunction(num){
     return sqr;
 }
 let result = getFunction(5);
-consolr.log(result);//25
+console.log(result);//25
