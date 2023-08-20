@@ -11,4 +11,4 @@ function PrintNumSeries(num){
         console.log(i);
     }
 }
-PrintNumSeries(5);
+PrintNumSeries(5); 
