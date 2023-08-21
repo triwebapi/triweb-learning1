@@ -8,7 +8,7 @@ if("username" in obj1){
 //instance of 
 
 function xyz(){
-    this.x = 5;
+    this.x = 5;  // this represent its current object
 }
 
 let y3 = new xyz();
