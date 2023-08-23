@@ -17,3 +17,32 @@ console.log("index of e is",indexOfe);
 
 const indexOflaste = str3.lastIndexOf('e');
 console.log("index Of laste e  is",indexOflaste);
+
+//startsWith
+
+if(str3.startsWith('h')){
+    console.log("yes string starts with h");
+}else{
+    console.log("no it does not start with h");
+}
+//endsWith
+
+if(str3.endsWith("e")){
+    console.log("yes string end with e");
+}else{
+    console.log("ni it does not end  with e");
+}
+
+//includes  str.include
+
+//concat
+// const str1 = "i am going";
+// const str2 = "okay u can go";
+// str3 = str1+str2;
+// console.log(str3)
+
+// here concat with function
+
+// const str3 = str.concat(str1);
+// console.log(str3);
+
