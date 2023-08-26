@@ -13,4 +13,4 @@ console.log(myGenerator.next());
 console.log(myGenerator.next());
 console.log(myGenerator.next());
 console.log(myGenerator.next());
-console.log(myGenerator.next());
+console.log(myGenerator.next());// iterator is advance level and generator is simple.
