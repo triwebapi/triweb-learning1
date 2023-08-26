@@ -8,4 +8,13 @@ function validate(name){
     });
 }
 
-console.log(validate("abcd"));
+//console.log(validate("abcd")); // This is in wrap inside promise so take it out.
+//Promise {<fulfilled>: 'yes validated'}
+
+validate("danish")
+.then((result)=>{
+    console.log(result); // This is method to controll promise
+})
+.catch((err)=>{
+    console.log(err)
+})
